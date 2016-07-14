@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="18.0dip" android:textColor="#ff858585" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="手机归属地" android:layout_weight="3.0" />
+            <TextView android:textSize="18.0dip" android:textColor="#ff858585" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="中国" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0dip" android:textColor="#ff858585" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="+86" android:layout_weight="2.0" />
+            <EditText android:textColorHint="#ffe2e2e5" android:id="@+id/et_loginphone" android:background="@null" android:layout_width="0.0dip" android:layout_height="50.0dip" android:hint="@string/plaseinputphonenum" android:layout_weight="5.0" android:inputType="number" />
+            <Button android:textColor="@color/white" android:id="@+id/btn_phone_login_send_code" android:background="@drawable/btn_yzm_background" android:layout_width="80.0dip" android:layout_height="35.0dip" android:text="发验证码" />
+        </LinearLayout>
+        <View android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0dip" android:textColor="#ff858585" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="验证码" android:layout_weight="2.0" />
+            <EditText android:textColorHint="#ffe2e2e5" android:id="@+id/et_logincode" android:background="@null" android:layout_width="0.0dip" android:layout_height="50.0dip" android:hint="请填写短信验证码" android:layout_weight="5.0" />
+            <View android:layout_width="80.0dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <Button android:textColor="#ffffffff" android:layout_gravity="center" android:id="@+id/btn_dologin" android:background="@drawable/btn_yzm_background" android:layout_width="270.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:text="立即登陆" />
+</LinearLayout>

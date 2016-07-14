@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/view_home_page_head" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:weightSum="2.0">
+                <TextView android:textColor="@color/global" android:gravity="center" android:id="@+id/tv_home_page_index_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/home" android:layout_weight="1.0" />
+                <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/tv_home_page_video_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/live" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/v_line" />
+            <include layout="@layout/view_home_page_video" />
+            <include layout="@layout/view_home_page_index" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/view_home_page_bottom_menu" />
+</RelativeLayout>

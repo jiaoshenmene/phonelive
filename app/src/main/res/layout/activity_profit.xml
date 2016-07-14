@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/backgroun_profit" android:paddingLeft="30.0dip" android:layout_width="fill_parent" android:layout_height="200.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/me_harvest_yingpiao" />
+            <TextView android:textSize="25.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yingpiao" />
+        </LinearLayout>
+        <View android:layout_width="wrap_content" android:layout_height="40.0dip" />
+        <TextView android:textSize="40.0dip" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@+id/tv_votes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout style="@style/user_profit_ll">
+        <TextView android:text="可提现金额(元)" android:layout_weight="1.0" style="@style/user_profit_text" />
+        <TextView android:text="今日可提现金额(元)" style="@style/user_profit_text" />
+    </LinearLayout>
+    <LinearLayout style="@style/user_profit_ll">
+        <TextView android:textSize="20.0dip" android:textColor="@color/actionbarbackground" android:id="@+id/tv_profit_canwithdraw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" style="@style/user_profit_text" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/actionbarbackground" android:id="@+id/tv_profit_withdraw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" style="@style/user_profit_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:weightSum="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/label_but_sel3x" android:visibility="gone" android:layout_width="240.0dip" android:layout_height="50.0dip">
+            <TextView android:textSize="@dimen/abc_text_size_subhead_material" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="兑换" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/me_harvest_exchange" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/ll_profit_cash" android:background="@drawable/me_button" android:layout_width="240.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="@dimen/abc_text_size_subhead_material" android:textColor="@color/actionbarbackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="提现" />
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@+id/TextView" android:layout_width="84.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:text="@string/commonproblem" android:layout_weight="0.7" />
+    </LinearLayout>
+</LinearLayout>

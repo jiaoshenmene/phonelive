@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/transparent_blank" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager android:id="@+id/vp_gift_page" android:layout_width="wrap_content" android:layout_height="200.0dip" />
+        <View android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@+id/gv_gift_list" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/actionbarbackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="充值:" />
+                <TextView android:textColor="@color/light_gray2" android:id="@+id/tv_show_select_user_coin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/redpacket_diamond" />
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/me_next" />
+            </LinearLayout>
+            <Button android:textColor="@color/white" android:id="@+id/btn_show_send_gift" android:background="@color/light_gray2" android:layout_width="80.0dip" android:layout_height="fill_parent" android:text="@string/sendgift" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/iv_show_send_gift_lian" android:background="@drawable/background_show_send_gift" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="170.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liansendgift" />
+            <TextView android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/tv_show_gift_outtime" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

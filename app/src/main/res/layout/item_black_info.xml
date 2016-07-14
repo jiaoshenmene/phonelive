@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.weilian.phonelive.widget.CircleImageView android:id="@+id/cv_userHead" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:id="@+id/tv_item_uname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@+id/tv_item_usex" android:layout_width="wrap_content" android:layout_height="@dimen/space_25" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <ImageView android:id="@+id/tv_item_ulevel" android:layout_width="32.0dip" android:layout_height="@dimen/space_25" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/gray" android:id="@+id/tv_item_usign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+    <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/blacklist" android:layout_alignParentRight="true" />
+</RelativeLayout>

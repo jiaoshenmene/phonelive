@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:id="@+id/tv_order_item_u_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我的名字" />
+        <ImageView android:id="@+id/iv_order_item_u_sex" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/global_male" />
+        <ImageView android:id="@+id/tv_order_item_u_level" android:layout_width="30.0dip" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/rank_100" />
+    </LinearLayout>
+    <TextView android:layout_gravity="center" android:id="@+id/tv_order_item_u_gx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/ll_title" android:background="@color/global" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@+id/iv_search_music_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/global_back" android:layout_centerVertical="true" />
+        <RelativeLayout android:background="@drawable/edit_background" android:padding="5.0dip" android:layout_width="270.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_search_gray" android:layout_centerVertical="true" />
+            <EditText android:textSize="17.0dip" android:id="@+id/et_search_input" android:background="@null" android:layout_width="240.0dip" android:layout_height="fill_parent" android:text="" android:hint="@string/searchmusic" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/white" android:id="@+id/tv_search_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/search" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ListView android:id="@+id/lv_search_music" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

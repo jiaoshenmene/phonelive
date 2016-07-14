@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/ll_title" android:background="@color/global" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/iv_private_chat_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/global_back" android:layout_centerVertical="true" />
+        <com.astuetz.PagerSlidingTabStrip android:id="@+id/tabs" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@+id/pager" android:layout_below="@+id/ll_title" style="@style/fill_fill" />
+</RelativeLayout>

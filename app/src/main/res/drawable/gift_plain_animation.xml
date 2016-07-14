@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@drawable/plan0001" />
+    <item android:duration="20" android:drawable="@drawable/plan0002" />
+    <item android:duration="20" android:drawable="@drawable/plan0003" />
+    <item android:duration="20" android:drawable="@drawable/plan0004" />
+    <item android:duration="20" android:drawable="@drawable/plan0005" />
+    <item android:duration="20" android:drawable="@drawable/plan0006" />
+    <item android:duration="20" android:drawable="@drawable/plan0007" />
+    <item android:duration="20" android:drawable="@drawable/plan0008" />
+    <item android:duration="20" android:drawable="@drawable/plan0009" />
+    <item android:duration="20" android:drawable="@drawable/plan0010" />
+    <item android:duration="20" android:drawable="@drawable/plan0011" />
+    <item android:duration="20" android:drawable="@drawable/plan0012" />
+    <item android:duration="20" android:drawable="@drawable/plan0013" />
+</animation-list>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/iv_animation_red_car" android:background="@drawable/gift_car_red_animation" android:layout_width="240.0dip" android:layout_height="190.0dip" />
+</RelativeLayout>

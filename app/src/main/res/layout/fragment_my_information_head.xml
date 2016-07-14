@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/me_bg" android:layout_width="fill_parent" android:layout_height="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_user_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="250.0dip">
+        <RelativeLayout android:id="@+id/rl_user_center" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <include layout="@layout/view_info_detail_data" />
+            <ImageView android:id="@+id/iv_info_private_core" android:clickable="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="@dimen/space_10" android:src="@drawable/sixinchat" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="#ffe2e2e2" android:layout_width="wrap_content" android:layout_height="3.0px" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/ll_live" style="@style/uset_information_ll">
+                <TextView android:id="@+id/tv_info_u_live_num" android:text="@string/user_live" style="@style/user_formation_info" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/ll_following" style="@style/uset_information_ll">
+                <TextView android:id="@+id/tv_info_u_follow_num" android:text="@string/following" style="@style/user_formation_info" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/ll_fans" style="@style/uset_information_ll">
+                <TextView android:id="@+id/tv_info_u_fans_num" android:text="@string/follower" style="@style/user_formation_info" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/rl_user_unlogin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="150.0dip">
+        <com.weilian.phonelive.widget.CircleImageView android:id="@+id/iv_avatar1" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="@dimen/space_20" android:src="@drawable/null_blacklist" android:layout_centerHorizontal="true" android:contentDescription="@null" app:border_width="3.0dip" app:border_color="@color/white" />
+        <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_5" android:text="@string/my_information_unlogin_tips" android:layout_below="@+id/iv_avatar1" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

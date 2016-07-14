@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_15" android:id="@+id/tv_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="北京" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/global" android:id="@+id/tv_area_live_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="99  √" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+</RelativeLayout>

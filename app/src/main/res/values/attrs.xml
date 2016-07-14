@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="comment_reply_container_bg" format="reference" />
+    <attr name="drawerArrowStyle" format="reference" />
+    <attr name="editor_color" format="reference" />
+    <attr name="editor_hit_color" format="reference" />
+    <attr name="height" format="dimension" />
+    <attr name="infoTextColor" format="reference" />
+    <attr name="isLightTheme" format="boolean" />
+    <attr name="layout_bg_normal" format="reference" />
+    <attr name="layout_item_bg" format="reference" />
+    <attr name="lineColor" format="reference" />
+    <attr name="message_bg_left" format="reference" />
+    <attr name="message_bg_right" format="reference" />
+    <attr name="quickoption_icon_album_selector" format="reference" />
+    <attr name="quickoption_icon_note_selector" format="reference" />
+    <attr name="quickoption_icon_photo_selector" format="reference" />
+    <attr name="quickoption_icon_scan_selector" format="reference" />
+    <attr name="quickoption_icon_text_selector" format="reference" />
+    <attr name="quickoption_icon_voice_selector" format="reference" />
+    <attr name="sliding_block_bg" format="reference" />
+    <attr name="textColor" format="reference" />
+    <attr name="title" format="string" />
+    <attr name="windows_bg" format="reference" />
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    <attr name="layout_widthPercent" format="string" />
+    <attr name="layout_heightPercent" format="string" />
+    <attr name="layout_marginPercent" format="string" />
+    <attr name="layout_marginLeftPercent" format="string" />
+    <attr name="layout_marginTopPercent" format="string" />
+    <attr name="layout_marginRightPercent" format="string" />
+    <attr name="layout_marginBottomPercent" format="string" />
+    <attr name="layout_marginStartPercent" format="string" />
+    <attr name="layout_marginEndPercent" format="string" />
+    <attr name="layout_textSizePercent" format="string" />
+    <attr name="layout_maxWidthPercent" format="string" />
+    <attr name="layout_maxHeightPercent" format="string" />
+    <attr name="layout_minWidthPercent" format="string" />
+    <attr name="layout_minHeightPercent" format="string" />
+    <attr name="layout_paddingPercent" format="string" />
+    <attr name="layout_paddingTopPercent" format="string" />
+    <attr name="layout_paddingBottomPercent" format="string" />
+    <attr name="layout_paddingLeftPercent" format="string" />
+    <attr name="layout_paddingRightPercent" format="string" />
+    <attr name="ptr_rotate_ani_time" format="integer" />
+    <attr name="ptr_header" format="reference" />
+    <attr name="ptr_content" format="reference" />
+    <attr name="ptr_resistance" format="float" />
+    <attr name="ptr_ratio_of_header_height_to_refresh" format="float" />
+    <attr name="ptr_duration_to_close" format="integer" />
+    <attr name="ptr_duration_to_close_header" format="integer" />
+    <attr name="ptr_pull_to_fresh" format="boolean" />
+    <attr name="ptr_keep_header_when_refresh" format="boolean" />
+    <declare-styleable name="GifTextureView"><attr format="reference|string" name="gifSource"/><attr format="boolean" name="isOpaque"/></declare-styleable>
+    <declare-styleable name="GifView"><attr format="boolean" name="freezesAnimation"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+</resources>

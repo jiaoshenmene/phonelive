@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/global" android:layout_height="1.0px" style="@style/h_line" />
+        <LinearLayout android:id="@+id/ll_home_page_bottom_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0">
+            <LinearLayout android:id="@+id/ll_home_page_menu_follow" style="@style/home_page_user_info_bottom_menu">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sixinfollow" />
+                <TextView android:textSize="@dimen/text_size_15" android:id="@+id/tv_home_page_menu_follow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="已关注" />
+            </LinearLayout>
+            <View android:layout_gravity="center" android:background="@color/black" android:layout_width="1.0px" android:layout_height="35.0dip" style="@style/v_line" />
+            <LinearLayout android:id="@+id/ll_home_page_menu_privatechat" style="@style/home_page_user_info_bottom_menu">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sixinfollow" />
+                <TextView android:textSize="@dimen/text_size_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/privatechat" />
+            </LinearLayout>
+            <View android:layout_gravity="center" android:background="@color/black" android:layout_width="1.0px" android:layout_height="35.0dip" style="@style/v_line" />
+            <LinearLayout android:id="@+id/ll_home_page_menu_lahei" style="@style/home_page_user_info_bottom_menu">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sixinlahei" />
+                <TextView android:textSize="@dimen/text_size_15" android:id="@+id/tv_home_page_black_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/lahei" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

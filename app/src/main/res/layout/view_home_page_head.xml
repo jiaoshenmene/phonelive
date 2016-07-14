@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/global" android:layout_width="fill_parent" android:layout_height="220.0dip">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="10.0dip">
+            <ImageView android:id="@+id/iv_home_page_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/global_back" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/me_harvest_exchange" />
+                <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/white" android:id="@+id/tv_home_page_send_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.weilian.phonelive.widget.AvatarView android:id="@+id/av_home_page_uhead" android:layout_width="70.0dip" android:layout_height="70.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/white" android:id="@+id/tv_home_page_uname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@+id/iv_home_page_sex" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+            <ImageView android:id="@+id/iv_home_page_level" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textColor="@color/white" android:id="@+id/tv_home_page_follow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关注 0" />
+            <View android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@style/h_line" />
+            <TextView android:textColor="@color/white" android:id="@+id/tv_home_page_fans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="粉丝 0" />
+        </LinearLayout>
+        <TextView android:textColor="@color/white" android:id="@+id/tv_home_page_sign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+</merge>

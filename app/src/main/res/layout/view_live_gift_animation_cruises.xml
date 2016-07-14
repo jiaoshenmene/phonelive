@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/iv_live_water_one" android:layout_marginLeft="10.0dip" style="@style/live_show_seawater" />
+        <ImageView android:id="@+id/iv_live_water_one2" android:layout_marginRight="10.0dip" style="@style/live_show_seawater" />
+        <RelativeLayout android:id="@+id/rl_live_cruises" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-300.0dip" android:layout_marginTop="200.0dip">
+            <TextView android:textColor="@color/white" android:id="@+id/tv_live_cruises_uname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_width="300.0dip" android:layout_height="200.0dip" android:src="@drawable/yacht_hull" android:layout_centerVertical="true" />
+            <com.weilian.phonelive.widget.AvatarView android:id="@+id/live_cruises_uhead" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="160.0dip" android:src="@drawable/room_qq" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="170.0dip" android:src="@drawable/yacht_shadow" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

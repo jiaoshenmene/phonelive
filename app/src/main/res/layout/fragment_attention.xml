@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/mSwipeRefreshLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="25.0dip">
+                <View android:background="@color/red" android:layout_width="5.0dip" android:layout_height="15.0dip" />
+                <TextView android:text="@string/attentionlive" style="@style/attent_title_ll" />
+            </LinearLayout>
+            <ListView android:id="@+id/lv_attentions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/view_attention_no_live" />
+            <LinearLayout android:gravity="center_vertical" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="25.0dip">
+                <View android:background="@color/red" android:layout_width="5.0dip" android:layout_height="15.0dip" />
+                <TextView android:text="精彩回放" style="@style/attent_title_ll" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="live_start_share_close">
+        <item>微博分享已关</item>
+        <item>微信分享已关</item>
+        <item>微信分享已关</item>
+        <item>QQ分享已关</item>
+        <item>QQ空间分享已关</item>
+    </string-array>
+    <string-array name="live_start_share_open">
+        <item>微博分享已开</item>
+        <item>微信分享已开</item>
+        <item>微信分享已开</item>
+        <item>QQ分享已开</item>
+        <item>QQ空间分享已开</item>
+    </string-array>
+</resources>

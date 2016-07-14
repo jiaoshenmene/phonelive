@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/background_gift_item" android:layout_width="200.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <com.weilian.phonelive.widget.AvatarView android:id="@+id/av_gift_uhead" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/icon_def_mobil" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/white" android:id="@+id/tv_gift_uname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/brightyellow" android:id="@+id/tv_gift_gname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.weilian.phonelive.widget.AvatarView android:id="@+id/av_gift_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="-40.0dip" android:src="@drawable/icon_def_phone" />
+    </RelativeLayout>
+    <com.weilian.phonelive.widget.StrokeTextView android:textSize="@dimen/text_size_20" android:textColor="@color/actionbarbackground" android:id="@+id/tv_show_gift_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="190.0dip" />
+</RelativeLayout>

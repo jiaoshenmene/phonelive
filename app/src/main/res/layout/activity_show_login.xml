@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@+id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/iv_select_login_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="请选择登录方式" android:layout_above="@+id/ll_login_select" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_login_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/iv_qqlogin" android:layout_width="0.0dip" android:layout_height="55.0dip" android:src="@drawable/icon_def_qq" android:layout_weight="1.0" />
+        <ImageView android:id="@+id/iv_sllogin" android:layout_width="0.0dip" android:layout_height="55.0dip" android:src="@drawable/icon_def_xl" android:layout_weight="1.0" />
+        <ImageView android:id="@+id/iv_wxlogin" android:layout_width="0.0dip" android:layout_height="55.0dip" android:src="@drawable/icon_def_wx" android:layout_weight="1.0" />
+        <ImageView android:id="@+id/iv_mblogin" android:layout_width="0.0dip" android:layout_height="55.0dip" android:src="@drawable/icon_def_mobil" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@+id/realtabcontent" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.weilian.phonelive.widget.MyFragmentTabHost android:id="@android:id/tabhost" android:background="@drawable/tab_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_live_start" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_tab_live_background" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+</RelativeLayout>

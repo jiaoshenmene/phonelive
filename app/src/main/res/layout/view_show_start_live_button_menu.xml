@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@+id/fl_bottom_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@+id/ll_bottom_menu" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/iv_live_chat" android:background="@drawable/btn_show_live_chat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true">
+                <ImageView android:id="@+id/iv_live_privatechat" android:background="@drawable/btn_show_live_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+                <ImageView android:id="@+id/iv_live_music" android:background="@drawable/btn_show_live_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+                <ImageView android:id="@+id/iv_live_meiyan" android:background="@drawable/btn_show_live_meiyan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+                <ImageView android:id="@+id/iv_live_switch_camera" android:background="@drawable/btn_show_live_switch_carmera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+                <ImageView android:id="@+id/iv_live_back" android:background="@drawable/btn_show_live_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_live_chat_edit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="5.0dip" android:weightSum="20.0">
+            <EditText android:textColor="@color/white" android:id="@+id/et_live_chat_input" android:background="@drawable/edit_live_chat_background" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_weight="16.0" />
+            <Button android:textColor="@color/white" android:id="@+id/bt_send_chat" android:background="@drawable/btn_live_chat_send" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:text="@string/sendchat" android:layout_weight="4.0" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

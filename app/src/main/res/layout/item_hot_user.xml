@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="370.0dip">
+        <LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:weightSum="7.0">
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0">
+                <com.weilian.phonelive.widget.AvatarView android:layout_gravity="center" android:id="@+id/iv_live_user_head" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_launcher" app:border_width="1.0dip" app:border_color="@color/actionbarbackground" />
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                    <TextView android:textSize="@dimen/text_size_15" android:ellipsize="end" android:id="@+id/tv_live_nick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="6" android:singleLine="true" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="10.0dip" android:layout_height="15.0dip" android:src="@drawable/live_map_dark" />
+                        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/light_gray2" android:id="@+id/tv_live_local" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_weight="2.0">
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/actionbarbackground" android:id="@+id/tv_live_usernum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="15234" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/light_gray2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/lookin" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.weilian.phonelive.widget.LoadUrlImageView android:id="@+id/iv_live_user_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/live_verify_bg3x" android:scaleType="centerCrop" />
+            <ImageView android:layout_width="55.0dip" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/live_live" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/black" android:gravity="center_vertical" android:id="@+id/tv_hot_room_title" android:background="@color/white" android:padding="7.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    <View android:background="#fff0f7f6" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+</LinearLayout>

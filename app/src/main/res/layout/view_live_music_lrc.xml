@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/rl_live_music" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/white" android:id="@+id/btn_live_end_music" android:background="@drawable/btn_live_transparent" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/musicEnd" />
+    <com.weilian.phonelive.widget.music.LrcView android:layout_gravity="center" android:id="@+id/lcv_live_start" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_centerInParent="true" />
+</LinearLayout>

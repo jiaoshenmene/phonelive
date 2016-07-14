@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip">
+        <com.weilian.phonelive.widget.AvatarView android:layout_gravity="center" android:id="@+id/iv_avatar" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/null_blacklist" android:layout_centerHorizontal="true" android:contentDescription="@null" app:border_width="2.0dip" app:border_color="@color/actionbarbackground" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/white" android:id="@+id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_5" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@+id/iv_gender" android:layout_width="wrap_content" android:layout_marginLeft="7.0dip" android:src="@drawable/choice_sex_male" style="@style/user_info_sexandbianji" />
+                <ImageView android:id="@+id/iv_editInfo" android:src="@drawable/me_btn_bianji" style="@style/user_info_sexandbianji" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/white" android:id="@+id/tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_5" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/white" android:id="@+id/tv_signature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_5" android:layout_centerHorizontal="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/white" android:id="@+id/tv_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_5" android:text="送出0" android:layout_centerHorizontal="true" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:src="@drawable/redpacket_diamond" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View style="@style/h_line" />
+    <RelativeLayout android:id="@+id/rl_info_order_btn" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.weilian.phonelive.widget.AvatarView android:id="@+id/iv_info_order_no1" style="@style/user_info_order_top_three_head" />
+            <com.weilian.phonelive.widget.AvatarView android:id="@+id/iv_info_order_no2" android:layout_marginLeft="10.0dip" style="@style/user_info_order_top_three_head" />
+            <com.weilian.phonelive.widget.AvatarView android:id="@+id/iv_info_order_no3" android:layout_marginLeft="10.0dip" style="@style/user_info_order_top_three_head" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yporder" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/me_jiantou" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

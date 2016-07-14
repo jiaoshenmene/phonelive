@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/ll_push_manage" android:background="@color/white" style="@style/option_item_rl">
+        <TextView android:text="@string/pushmanage" style="@style/option_item_text" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/me_next" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View style="@style/h_line" />
+    <RelativeLayout android:id="@+id/ll_about" android:background="@color/white" style="@style/option_item_rl">
+        <TextView android:text="@string/about" style="@style/option_item_text" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/me_next" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View style="@style/h_line" />
+    <RelativeLayout android:id="@+id/ll_feedback" android:background="@color/white" style="@style/option_item_rl">
+        <TextView android:text="@string/feedback" style="@style/option_item_text" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/me_next" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View style="@style/h_line" />
+    <RelativeLayout android:id="@+id/ll_blank_list" android:background="@color/white" android:layout_marginTop="10.0dip" style="@style/option_item_rl">
+        <TextView android:text="@string/blanklist" style="@style/option_item_text" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/me_next" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View style="@style/h_line" />
+</LinearLayout>

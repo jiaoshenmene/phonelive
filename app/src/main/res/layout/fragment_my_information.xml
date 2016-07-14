@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/rootview" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/fragment_my_information_head" />
+            <LinearLayout android:id="@+id/ll_profit" android:background="@color/white" android:layout_marginTop="10.0dip" style="@style/option_item_rl">
+                <ImageView android:background="@drawable/me_under_harvest" android:contentDescription="@null" style="@style/option_item_img" />
+                <TextView android:text="@string/message" style="@style/option_item_text" />
+                <TextView android:gravity="right" android:id="@+id/tv_mes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_10" />
+            </LinearLayout>
+            <View style="@style/h_line" />
+            <LinearLayout android:id="@+id/ll_level" android:background="@color/white" style="@style/option_item_rl">
+                <ImageView android:background="@drawable/me_under_grade" android:contentDescription="@null" style="@style/option_item_img" />
+                <TextView android:text="@string/blog" style="@style/option_item_text" />
+            </LinearLayout>
+            <View style="@style/h_line" />
+            <LinearLayout android:id="@+id/ll_diamonds" android:background="@color/white" style="@style/option_item_rl">
+                <ImageView android:background="@drawable/me_under_myaccount" android:contentDescription="@null" style="@style/option_item_img" />
+                <TextView android:text="@string/note" style="@style/option_item_text" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/ll_setting" android:background="@color/white" android:layout_marginTop="10.0dip" style="@style/option_item_rl">
+                <ImageView android:background="@drawable/me_under_nodisturbing" android:contentDescription="@null" style="@style/option_item_img" />
+                <TextView android:text="@string/team" style="@style/option_item_text" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/ll_loginout" android:background="@color/white" android:layout_marginTop="15.0dip" style="@style/option_item_rl">
+                <TextView android:gravity="center" android:layout_width="fill_parent" android:text="@string/loginout" style="@style/option_item_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

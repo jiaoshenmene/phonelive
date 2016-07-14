@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@+id/tv_manage_set_report" android:text="举报" style="@style/live_show_manage_menu_item" />
+    <TextView android:id="@+id/tv_manage_set_manage" android:text="设为管理" style="@style/live_show_manage_menu_item" />
+    <TextView android:id="@+id/tv_manage_manage_list" android:text="管理员列表" style="@style/live_show_manage_menu_item" />
+    <TextView android:id="@+id/tv_manage_shutup" android:text="禁言" style="@style/live_show_manage_menu_item" />
+    <TextView android:id="@+id/tv_manage_cancel" android:text="取消" style="@style/live_show_manage_menu_item" />
+</LinearLayout>

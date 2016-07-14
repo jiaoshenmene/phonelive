@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@+id/tv_order_item_u_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NO.7" />
+    <com.weilian.phonelive.widget.CircleImageView android:id="@+id/ci_order_item_u_head" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="7.0dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/view_order_item_public" />
+    </LinearLayout>
+</LinearLayout>
